@@ -7,7 +7,7 @@ To build it :
 
 To run it (with image on docker hub) :
 
-    docker run -d -p 7878:7878 \
+    docker run -d -p 9117:9117 \
     -v /path_to_your_config_folder:/volumes/config \
     --restart unless-stopped \
     --name jackett \
